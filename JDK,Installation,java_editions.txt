@@ -1,0 +1,43 @@
+JVM(Java virtual machine),JRE(Java runTime environment),JDK(Java development Kit):-
+
+
+
+JDK
+JRE
+JVM
+
+
+JVM--(compiler{execute all at once})-->bytecode---(interpreter{execute line by line})-->machineCode
+
+we can't use compiler to convert to byte to machine code:
+
+ In early days: slow hardware , low ram , less disk
+But Now a days we overcome the above limitations and we are using Interpreter+JIT compiler(Just In time). JIT convert frequrenltly used code.
+
+JVM:
+->converts byte code to machine code
+->Provide security as it is byte code we have to download through internet we might contain malicious code so it provide sandbox model which is a secure environment.
+->Garbage collection
+
+JRE:
+->JVM+Class libraries(used in the programming like print(){internal libaries})
+
+JDK:
+->JRE+compiler(c0nverts to bytecode)+debugger+java Docx.
+
+to run the java code
+
+javac filename.java -byte code
+java filename -run
+
+How to install JDK :
+->Download JDK through net.
+->Open environmemt variables.
+->in systemvariable add the New path with variable Name JAVA_HOME.
+->In systevariable under path click edit and add this  %JAVA_HOME%\bin.
+->verify through java -verision and javac -version cmds
+
+JAVA editions standards:
+JSE(java standard edition): core java
+JEE(java enterprise edition){Jakarta EE): used to create web apps
+JME(Java micro edition):used to create mobile apps in olden mobiles.
