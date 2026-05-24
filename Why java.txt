@@ -1,0 +1,26 @@
+How code execute:
+
+ when we deploy our code (it is compliled code)  then our system execute the code which is in machine code.
+
+JAVA(also used in frontend through applents but now it is deprecated because of new frontend languages):
+
+what make java different from other languages??
+
+=> if we complile C/C++ code in different platform it might crash or execute the code wrongly because the ASSEMBLY Binary codes like ADD might vary from system to system and the libraries in  OS also.
+
+->It is platform independent and portable so we can say write once read anywhere.
+               platform=microProcessor+Operating System 
+
+          code->compiler->ByteCode -> with the help of JVM(Java Virtualize machine) have to install in PC->binarycode
+             
+
+->It is more secure by using JVM.
+->it hide the complex and make java as simple compared to other languages.
+               it doesn't have the complex concepts like pointer, multiple inheritance and manual memory allocation/deallocation
+
+Other languages which are platform independent C#, python 
+
+
+Why C/C++ not used this VM concept??.
+            One of the reason is speed .
+
